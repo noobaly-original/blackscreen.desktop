@@ -70,10 +70,12 @@ To bundle the application into a single portable binary without requiring a loca
 
    * **macOS / Linux:**
      ```bash
-     pyinstaller --noconsole --onefile --icon=app.ico --add-data "app.ico:." blackscreen.desktop.py
+     pyinstaller --noconsole --onefile --icon=app.icns --add-data "app.ico:." blackscreen.desktop.py
      ```
 
 3. Find the compiled executable inside the generated `dist/` directory.
+
+Note: You should convert the app.ico into a app.icns file for Mac/Linux. Many online tools can be used for this purpose.
 
 ---
 
