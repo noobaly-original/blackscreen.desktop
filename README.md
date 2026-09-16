@@ -47,7 +47,7 @@ Clone the repository and run the script directly:
 ```bash
 git clone https://github.com/your-username/black-screen-app.git
 cd black-screen-app
-python black_screen.py
+python blackscreen.desktop.py
 ```
 
 ---
@@ -65,12 +65,12 @@ To bundle the application into a single portable binary without requiring a loca
 
    * **Windows:**
      ```bash
-     pyinstaller --noconsole --onefile --icon=app.ico --add-data "app.ico;." black_screen.py
+     pyinstaller --noconsole --onefile --icon=app.ico --add-data "app.ico;." blackscreen.desktop.py
      ```
 
    * **macOS / Linux:**
      ```bash
-     pyinstaller --noconsole --onefile --icon=app.ico --add-data "app.ico:." black_screen.py
+     pyinstaller --noconsole --onefile --icon=app.ico --add-data "app.ico:." blackscreen.desktop.py
      ```
 
 3. Find the compiled executable inside the generated `dist/` directory.
