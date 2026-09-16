@@ -45,8 +45,8 @@ This project was directly inspired by **[blackscreen.app](https://blackscreen.ap
 Clone the repository and run the script directly:
 
 ```bash
-git clone https://github.com/your-username/black-screen-app.git
-cd black-screen-app
+gh repo clone noobaly-original/blackscreen.desktop
+cd blackscreen.desktop
 python blackscreen.desktop.py
 ```
 
