@@ -1,6 +1,6 @@
 # Black Screen Desktop 🖥️
 
-A lightweight, distraction-free desktop utility inspired by and modeled after the minimalist web tool [blackscreen.app](https://blackscreen.app/). Built with pure Python and Tkinter, it requires zero third-party dependencies and runs natively across Windows, macOS, and Linux. ✨
+A lightweight, distraction-free desktop utility inspired by and modeled after the minimalist web tool [blackscreen.app](https://blackscreen.app/).
 
 Useful for deep focus, OLED power saving, monitor cleaning, or stuck/dead pixel testing.
 
