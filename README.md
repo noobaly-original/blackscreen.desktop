@@ -14,11 +14,12 @@ This project was directly inspired by **[blackscreen.app](https://blackscreen.ap
 
 ## Features 🌟
 
-* **Zero External Dependencies:** Runs natively via standard Python 3 and Tkinter.
 * **Auto-Hiding Cursor:** Seamlessly hides the cursor after 2 seconds of inactivity while in fullscreen.
+* **Diagnostic Color Cycling:** Cycle between black, white, and primary RGB screens using the spacebar.
 * **Diagnostic Color Cycling:** Cycle between black, white, and primary RGB screens using the spacebar.
 * **Discrete Running Indicator:** Features a subtle status label in the top-left corner reminding you the utility is active without breaking immersion.
 * **Portable Ready:** Easily compile into a standalone `.exe` or macOS binary with PyInstaller.
+* **System Tray:** When the app is closed it exits into system tray using "pystray" (You can right-click to exit completely in the system tray.)
 
 ---
 
